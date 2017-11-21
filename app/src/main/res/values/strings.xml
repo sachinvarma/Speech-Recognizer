@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Speech</string>
+    <string name="permission_required">Please grant the permission to use the microphone</string>
+    <string name="start_service">Start Service</string>
+</resources>
