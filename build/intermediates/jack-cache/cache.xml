@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\User\.android\build-cache\6e8304a4c99f052c8b05939373a17a0d698b00b5\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4350fc3ae53e1652d674893f1fca78ab3e249164.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\102119b5d9bf387ad893985b2d1b6d75da80c824\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-14132b71c11ab11a8d6e55f8b4c67bd5796e358c.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\4a2776a8e02d1c5bc8cb8529111e88aabd35b5bd\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-52d43b3502a01292ac2c7dcf737776bb0aaf65e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\Sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.3"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-94d864f1d22bc40add3cd9dc9fb74cdf3531896d.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-888dc6c70591458ee998c2926f41c5e65a528d54.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\886c4bdc614c650f5e66604a6da051de3fed3a85\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-90da908abebeea934c82e7a6f478c2d25be5216a.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\a82d116ed58ce243f60f7d0f29142d24e14ab3ed\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-edf08cf92a8571c4e65a67d8253c40b78c73a5bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\f9e0551e8aa69a2e9d80041f521ba29f0c4af573\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4e697afd821d9c774ecbe552eb92615a92f08fb0.jar" />
+    </item>
+    <item
+        jar="F:\Sachin Varma\Projects\SpeechRecognizationAsService\speech\build\intermediates\bundles\default\classes.jar"
+        revision="25.0.3"
+        sha1="082bdc3b4a80fe20113bceace1d8f3b884476903">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8e12ad5c28509536fe7d4b68584d1e3a7483abe4.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\67c3de4ed3b60aa394b445c1151787c64be7360a\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-404eac3ec0d4ef1b5d7fef88742e663dc24e4c66.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\74ef41162446ac827a556395843fad53da71c48d\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5099e58d9ee95e3aff4f33fe230091c6b8b2bf4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\25a303fcb7265d6e09859a77695509556c0b7aa7\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b43cbd5115bd64d3446584fa0da60fca063914c5">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d2d16c28fc5434de9a324aa0aac06fe6479a9299.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\f5abd44f42e1a17241b692df19d3683b5093f703\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="50fd38504119ea609c269abf98af75fb14e82f2c">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4f9c3891b120a4b9d1c792420b5fcf8849e55b6d.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        revision="25.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.3.0-5332d3e34c73af542f3996cc40d38ffd44617327.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        revision="25.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\rxjava-1.1.6-211af402fd65757025e9a9f6bf0d6fe03a59f856.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\b3428a4eb93d2a54aef9a3c7b0c0748712f96c88\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7c7b4a2b9b66d324f10431fd0f2f9ce7a007290c.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\c3036f6b82e3f3d883682a433e2053da7f0ab114\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="09adf6e61abc0fe3b2cb5b1795a7033572475fad">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0c978ad1ce87d4f00f1bfdee8e7d6905e8151b8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\bdbb24c2dea6502e6e9223d37cf92f42df4b237e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-827c01e4b7c5195cb6f8d77a5895b6c0c0a32d69.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\bba28e88683e75cc3b5d019b6428cbaa59f60a2e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7b744c697250dc86f4a8fa821fa13cd855096b00.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\3078fb7a45362ab1cba93fdbd487f15e5b2fb2ef\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6464abdade9c0fd905766f7cd5615cc61dd5685b.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\Sdk\platforms\android-25\android.jar"
+        revision="25.0.3"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-a42729ff4d4143f1f30bdc973b338a664b4b4572.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\.android\build-cache\430150dc50d6a6d3a9e40515b94cd1fefea65bbb\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="F:\Sachin Varma\Projects\SpeechRecognizationAsService\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e6db6a58b563dff401e757a0920c620f0c56bbe3.jar" />
+    </item>
+
+</items>

@@ -5,7 +5,10 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
+import android.os.Handler;
 import android.os.IBinder;
+import android.os.Looper;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -21,6 +24,7 @@ import java.util.List;
 public class MyService extends Service implements SpeechDelegate, Speech.stopDueToDelay {
 
     public static SpeechDelegate delegate;
+    private boolean isCalled = false;
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -34,6 +38,7 @@ public class MyService extends Service implements SpeechDelegate, Speech.stopDue
             Speech.getInstance().stopListening();
             muteBeepSoundOfRecorder();
         } else {
+            System.setProperty("rx.unsafe-disable", "True");
             RxPermissions.getInstance(this)
                     .request(Manifest.permission.RECORD_AUDIO)
                     .subscribe(granted -> {
@@ -77,14 +82,17 @@ public class MyService extends Service implements SpeechDelegate, Speech.stopDue
     public void onSpeechPartialResults(List<String> results) {
         for (String partial : results) {
             Log.d("Result", partial);
-        }
 
+            //Toast.makeText(this, partial, Toast.LENGTH_SHORT).show();
+
+        }
     }
 
     @Override
     public void onSpeechResult(String result) {
         Log.d("Result", result);
-
+        if(!TextUtils.isEmpty(result)){
+        Toast.makeText(this, result, Toast.LENGTH_SHORT).show();}
     }
 
     @Override
