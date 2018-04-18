@@ -62,7 +62,7 @@ private void enableAutoStart() {
     }
   }
 ```  
-**Credits**
+**Credits :**
 
 Thanks to @zagum https://github.com/zagum/SpeechRecognitionView
 
