@@ -73,7 +73,7 @@ private void enableAutoStart() {
 ```  
 **Credits :**
 
-Thanks to @zagum https://github.com/zagum/SpeechRecognitionView
+Thanks to gotev https://github.com/gotev/android-speech
 
 
 
