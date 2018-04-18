@@ -2,6 +2,8 @@
 
 This is a sample project which is having a continuous Speech Recognizer, which will listen voice commands as a background service.
 
+![](https://github.com/sachinvarma/Speech-Recognizer/blob/master/Art/demo.gif)
+
 **How to Add :**
 
 Via Gradle:
