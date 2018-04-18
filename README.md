@@ -8,7 +8,14 @@ This is a sample project which is having a continuous Speech Recognizer, which w
 
 Via Gradle:
 
-```compile 'com.github.sachinvarma:Speech-Recognizer:0.0.1' ```
+```
+repositories {
+        maven { url "https://jitpack.io" }
+    }
+```
+```
+compile 'com.github.sachinvarma:Speech-Recognizer:0.0.1'
+```
 
 Via Maven:
 
