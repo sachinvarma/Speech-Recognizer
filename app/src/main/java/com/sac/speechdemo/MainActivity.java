@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 import android.widget.TextView;
-import com.afollestad.materialdialogs.MaterialDialog;
+import com.afollestad.materialdialogs.MaterialDialog.Builder;
 import com.afollestad.materialdialogs.Theme;
 import com.example.user.speechrecognizationasservice.R;
 import com.sac.speech.Speech;
@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
     btStartService.setOnClickListener(v -> {
       if (btStartService.getText().toString().equalsIgnoreCase(getString(R.string.start_service))) {
         startService(new Intent(MainActivity.this, MyService.class));
-        Speech.init(MainActivity.this);
         btStartService.setText(getString(R.string.stop_service));
         tvText.setVisibility(View.VISIBLE);
       } else {
@@ -60,11 +59,10 @@ public class MainActivity extends AppCompatActivity {
   private void enableAutoStart() {
     for (Intent intent : Constants.AUTO_START_INTENTS) {
       if (getPackageManager().resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY) != null) {
-        new MaterialDialog.Builder(this).title("Enable AutoStart")
-          .content(
-            "Please allow QuickAlert to always run in the background,else our services can't be accessed when you are in distress")
+        new Builder(this).title(R.string.enable_autostart)
+          .content(R.string.ask_permission)
           .theme(Theme.LIGHT)
-          .positiveText("ALLOW")
+          .positiveText(getString(R.string.allow))
           .onPositive((dialog, which) -> {
             try {
               for (Intent intent1 : Constants.AUTO_START_INTENTS)
@@ -85,10 +83,12 @@ public class MainActivity extends AppCompatActivity {
 
   public boolean checkServiceRunning() {
     ActivityManager manager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
-    for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(
-      Integer.MAX_VALUE)) {
-      if ("com.sac.speechdemo.MyService".equals(service.service.getClassName())) {
-        return true;
+    if (manager != null) {
+      for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(
+        Integer.MAX_VALUE)) {
+        if (getString(R.string.my_service_name).equals(service.service.getClassName())) {
+          return true;
+        }
       }
     }
     return false;
