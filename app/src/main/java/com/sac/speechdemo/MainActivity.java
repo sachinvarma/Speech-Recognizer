@@ -2,17 +2,14 @@ package com.sac.speechdemo;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.afollestad.materialdialogs.DialogAction;
+import android.widget.TextView;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;
 import com.example.user.speechrecognizationasservice.R;
@@ -20,7 +17,8 @@ import com.sac.speech.Speech;
 
 public class MainActivity extends AppCompatActivity {
 
-  private Button startServiceButton;
+  private Button btStartService;
+  private TextView tvText;
 
   @SuppressLint("SetTextI18n")
   @Override
@@ -28,24 +26,28 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    startServiceButton = (Button) findViewById(R.id.startService);
-    //Some devices will not allow background service to work, So we have to enable autoStart for the app
+    btStartService = (Button) findViewById(R.id.btStartService);
+    tvText = (TextView) findViewById(R.id.tvText);
+    //Some devices will not allow background service to work, So we have to enable autoStart for the app.
     //As per now we are not having any way to check autoStart is enable or not,so better to give this in LoginArea,
     //so user will not get this popup again and again until he logout
     enableAutoStart();
 
     if (checkServiceRunning()) {
-      startServiceButton.setText("STOP SERVICE");
+      btStartService.setText(getString(R.string.stop_service));
+      tvText.setVisibility(View.VISIBLE);
     }
 
-    startServiceButton.setOnClickListener(v -> {
-      if (startServiceButton.getText().toString().equalsIgnoreCase("START SERVICE")) {
+    btStartService.setOnClickListener(v -> {
+      if (btStartService.getText().toString().equalsIgnoreCase(getString(R.string.start_service))) {
         startService(new Intent(MainActivity.this, MyService.class));
         Speech.init(MainActivity.this);
-        startServiceButton.setText("STOP SERVICE");
+        btStartService.setText(getString(R.string.stop_service));
+        tvText.setVisibility(View.VISIBLE);
       } else {
         stopService(new Intent(MainActivity.this, MyService.class));
-        startServiceButton.setText("START SERVICE");
+        btStartService.setText(getString(R.string.start_service));
+        tvText.setVisibility(View.GONE);
       }
     });
   }

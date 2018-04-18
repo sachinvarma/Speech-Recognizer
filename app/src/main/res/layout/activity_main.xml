@@ -10,10 +10,22 @@
     tools:context="com.sac.speechdemo.MainActivity">
 
    <Button
-       android:id="@+id/startService"
+       android:id="@+id/btStartService"
        android:layout_width="wrap_content"
        android:layout_centerInParent="true"
        android:text="@string/start_service"
+       android:layout_height="wrap_content"
+       />
+
+   <TextView
+       android:id="@+id/tvText"
+       android:layout_below="@+id/btStartService"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:visibility="gone"
+       android:fontFamily="monospace"
+       android:text="@string/voice_recognizer_is_active"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
        />
 
