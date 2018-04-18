@@ -31,7 +31,7 @@ Via Maven:
 
 **NOTE :**
 
-Some of the Mobile companies are restricting the serives by default to run on background. So we have to enable AutoStart for such device that
+Some of the Mobile companies are restricting the services by default to run on background. So we have to enable AutoStart for such device that
 will allow the service to run in background.
 
 Requesting Permission : 
